@@ -2,7 +2,7 @@ name: PR Update
 
 on:
   pull_request_target:
-    types: [opened, synchronize, reopened, labeled]
+    types: [opened]
     branches:
       - main
       - gh-actions-test-branch
