@@ -8,6 +8,10 @@ on:
       - gh-actions-test-branch
   workflow_dispatch:
 
+permissions:
+  actions: write
+  contents: read
+
 jobs:
   i18n:
     name: Run i18n
